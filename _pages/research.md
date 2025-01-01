@@ -1,11 +1,9 @@
 ---
-editor_options: 
-  markdown: 
-    wrap: 72
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
 ---
-
-layout: archive title: "Research" permalink: /research/ author_profile:
-true ---
 
 My research spans two main areas: developing methodological tools for
 causal inference and examining the dynamics of political instability and
