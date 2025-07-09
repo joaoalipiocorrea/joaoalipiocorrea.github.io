@@ -39,3 +39,16 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// ────────────────────────────────────────────────────────────────────────
+// Your custom tweaks
+
+.site-nav__link:hover,
+.site-nav__link--current {
+  border-bottom-color: #ADD8E6 !important;
+}
+
+.author-profile .author-role {
+  white-space: pre-line !important;
+  margin-bottom: 0 !important;
+}
