@@ -24,9 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "João Alípio-Correa"
   pronouns         : # example: "he/him"  
-  bio              : |
-  PhD Student in Political Science
-  MA Student in Statistics
+  bio              : "PhD Student in Political Science | MA Student in Statistics"
   location         : "Pittsburgh"
   employer         : "University of Pittsburgh"
   uri              : # URL
