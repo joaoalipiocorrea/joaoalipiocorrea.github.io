@@ -20,14 +20,14 @@ and substantive interests. Each project contributes to advancing our
 understanding of political instability and its far-reaching effects on
 regimes and societies.
 
-[Methods](#methods) | [Democracy](#democracy)
 
-### Methods {#methods}
+
+
 **Alípio-Correa, Joao**. (*Manuscript in preparation*) ”Spatiotemporal
 Interdependent Synthetic Control”
 
 
-### Democracy {#democracy}
+
 **Alípio-Correa, Joao**. (*Manuscript in preparation*) ”The Economic
 Impact of Political Instability: Evidence from Failed Coups”
 
