@@ -3,6 +3,7 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
+filters: []
 ---
 
 My research spans two main areas: developing methodological tools for
