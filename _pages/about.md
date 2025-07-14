@@ -8,10 +8,8 @@ redirect_from:
 ---
 
 
-Hi, I’m João Alípio-Correa, a PhD student in Political Science and a MA student in Statistics at the University of Pittsburgh, specializing in political methodology and the breakdown of political regimes.
+I’m Joao Alipio-Correa, a second-year PhD student in Political Science and an MA student in Statistics at the University of Pittsburgh. My research centers on causal inference, with a focus on settings where standard assumptions—such as no interference between units—are unlikely to hold. I develop methods that account for spatial and temporal dependence, particularly in designs like synthetic control and difference-in-differences.
 
-My methodological research focuses on advancing causal inference by addressing SUTVA violations and incorporating spatial-temporal interdependence under selection on observables. I am particularly interested in how spillovers between units and dependencies over time affect the application and interpretation of Synthetic Control Methods.
-
-In the study of political regimes, my research examines political instability, with a focus on democratic breakdowns and failed coups d'état. I study the consequences of these rare and abrupt moments of instability, exploring how they transform regimes and reshape political systems.
+Beyond methodology, my applied work explores how regimes respond to stress. I study the political consequences of instability, with an emphasis on how sharp, acute events reshape political systems.
 
 Thanks for visiting—feel free to explore my work and reach out if you’d like to connect!
