@@ -11,4 +11,4 @@ redirect_from:
 
 </iframe>
 
-You can download a PDF copy of my CV [here](/files/CV_basic.pdf).
+You can download a PDF copy of my CV [here](/files/CV.pdf).
