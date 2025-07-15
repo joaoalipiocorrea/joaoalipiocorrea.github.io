@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-See the extended slide deck for my PolMeth XLII poster [here](/files/[PolMeth2025] Alipio-Correa.pdf).
+See the extended slide deck for my PolMeth XLII poster [here](/files/[PolMeth2025]Alipio-Correa.pdf).
 
 I am Joao Alipio-Correa, a second-year PhD student in Political Science and an MA student in Statistics at the University of Pittsburgh. My research centers on causal inference, with a focus on settings where standard assumptions, such as no interference between units, are unlikely to hold. I develop methods that account for spatial and temporal dependence, particularly in designs like synthetic control and difference-in-differences.
 
