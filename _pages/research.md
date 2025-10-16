@@ -23,7 +23,7 @@ Alipio-Correa, Joao. **Synthetic Control Method under Interference: Detecting an
 Alipio-Correa, Joao. **Beyond Placebos: Constructing Synthetic Treatments for Causal Inference** - *Work-in-Progress*
 
 
-Alipio-Correa, Joao. ** A Sensitivity Analysis Framework for Consistency Violations under Interference** - *Work-in-Progress*
+Alipio-Correa, Joao. **A Sensitivity Analysis Framework for Consistency Violations under Interference** - *Work-in-Progress*
 
 
 
