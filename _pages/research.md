@@ -17,7 +17,7 @@ All my working papers are available upon request. Feel free to email me if you a
 
 Alipio-Correa, Joao. **Synthetic Control Method under Interference: Detecting and Correcting Bias** - *Working Paper*
 
-Alipio-Correa, Joao. ** Sensitivity Analysis Framework for Consistency Violations under Interference** - *Working Paper*
+Alipio-Correa, Joao. **Sensitivity Analysis Framework for Consistency Violations under Interference** - *Working Paper*
 
 Alipio-Correa, Joao. **Beyond Placebos: Constructing Synthetic Interventions for Causal Inference** - *Work-in-Progress*
 
