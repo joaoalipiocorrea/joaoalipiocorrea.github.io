@@ -300,3 +300,37 @@ a:hover {
   .page { padding: 0 1rem; }
   .author__avatar img { max-width: 120px; }
 }
+
+/* --- Wider content area --- */
+.page {
+  max-width: 1100px !important;
+  padding-right: 1rem;
+}
+.archive {
+  max-width: 1100px !important;
+}
+#main {
+  max-width: 100% !important;
+}
+.page__content {
+  max-width: 100% !important;
+}
+
+/* --- Tighter spacing between papers --- */
+.paper-entry {
+  padding: 0.7rem 0 !important;
+  margin-bottom: 0 !important;
+}
+.page__content h3 {
+  margin-top: 0.6rem !important;
+  margin-bottom: 0.2rem !important;
+}
+.page__content hr {
+  margin: 0.5rem 0 !important;
+}
+.page__content p {
+  margin-bottom: 0.6em !important;
+}
+.paper-status {
+  margin-bottom: 0.2rem !important;
+}
