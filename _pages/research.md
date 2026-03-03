@@ -1,79 +1,83 @@
 ---
-layout: archive
+layout: single
 title: "Research"
 permalink: /research/
 author_profile: true
-filters: []
 ---
 
-My current research focus on developing tools for causal inference under violations of common assumptions. In the projects listed below I adapt and evaluate design and model-based strategies to recover credible effects when treatments diffuse across networked units, or when they evolve over time.
-
-All my working papers are available upon request. Feel free to email me if you are interested in collaborating or just curious.
-
+My research develops tools for causal inference when standard identification assumptions break down. 
 
 # Methods
 
-### **Synthetic Control Method under Interference: Detecting and Correcting Bias**  
-*Working Paper*
+<div class="paper-entry" markdown="1">
 
-<p style="font-size: 0.9em; color: #666;">
-Working with synthetic control, I study how exposure to spillovers distorts identification and develop tools to detect these failures and correct for them. The approach formalizes a contamination channel driven by proximity-based spillovers and uses this structure to create a diagnostic that tests for interference. When interference is present, the corrections operate directly on the contamination pathway: either by rescaling exposure-linked covariates or by reallocating donor mass through constrained and unconstrained ridge procedures. Extensive simulations and a broad set of replications validate the ability of these adjustments to recover credible estimates even when the classic no-interference assumption breaks down.
-</p>
+### Detecting Interference in Causal Inference: A Doubly Robust Framework with Finite-Sample Valid Inference
 
-<div style="margin-bottom: 1em;">
-  <a href="/files/scm_interference_paper.pdf" class="btn btn--small btn--primary">Paper</a>
-  <a href="/files/scm_interference_slides.pdf" class="btn btn--small btn--inverse">Slides</a>
+<span class="paper-status">Working Paper</span>
+
+I develop a doubly robust framework for detecting interference that applies across DiD, staggered adoption, and synthetic control designs. The approach decompose contamination bias into identified and partially identified components, then progressively tightens bounds on bias using a semiparametrically efficient DR estimator of the spillover mean. Inference is permutation-based and exact in finite samples.
+
+%<span class="paper-links">
+%[<a href="/files/scm_interference_paper.pdf" class="btn--research">Paper</a>]
+%[<a href="/files/scm_interference_slides.pdf" class="btn--research">Slides</a>]
+%</span>
+%</div>
+
+<div class="paper-entry" markdown="1">
+
+### Correcting Interference in Synthetic Control
+
+<span class="paper-status">Working Paper</span>
+
+Synthetic control is uniquely vulnerable to interference: its sparse weights mean a single contaminated donor can shift estimates proportionally to its weight. I formalize this bias channel and propose three corrections — covariate rescaling, constrained ridge, and unconstrained ridge — that use an exogenous spatial reach score to penalize exposed donors. A central contribution is elevating *data coverage* (the presence of near, mid, and far donors) to a first-order design requirement for SC under potential interference.
+
+%<span class="paper-links">
+%[<a href="/files/sensitivity_interference_paper.pdf" class="btn--research">Paper</a>]
+%</span>
+%</div>
+
+<div class="paper-entry" markdown="1">
+
+### Beyond Placebos: Constructing Synthetic Interventions for Causal Inference
+
+<span class="paper-status">Work in Progress</span>
+
+This project formalizes intervention design as an optimization problem (selecting donor units and weights to mimic hypothetical shocks or treatment sequences that did not occur) enabling researchers to probe counterfactual regimes beyond standard placebo-based inference.
+
 </div>
-
----
-
-### **Sensitivity Analysis Framework for Consistency Violations under Interference**  
-*Working Paper*
-
-<p style="font-size: 0.9em; color: #666;">
-This paper explores a sensitivity analysis framework designed to give researchers a more general way to assess robustness when interference, rather than unmeasured confounding, is the source of identification failure. I extend the Bonvini and Kennedy confounded-fraction framework to settings where exposure structures are only partially known. The key insight is that, under independence of interference membership and a shared-severity envelope for spillovers, interference can be embedded in the same structure that yields sharp bounds in the confounding case. This produces a network-agnostic sensitivity model where interference bias appears as a weighted disturbance constrained by budgets on unit influence, total spillover mass, or monotonicity. The resulting bounds deliver closed-form worst-case bias and flip thresholds, and the framework naturally incorporates domain knowledge through exposure maps when available.
-</p>
-
-<div style="margin-bottom: 1em;">
-  <a href="/files/sensitivity_interference_paper.pdf" class="btn btn--small btn--primary">Paper</a>
-</div>
-
----
-
-### **Beyond Placebos: Constructing Synthetic Interventions for Causal Inference**  
-*Work-in-Progress*
-
-<p style="font-size: 0.9em; color: #666;">
-This project explores ways to construct synthetic interventions rather than relying on classic placebo-based inference. The idea is to formalize intervention design as an optimization problem: selecting donor units and weights to mimic hypothetical shocks, institutional changes, or treatment sequences that did not occur. This perspective allows researchers to probe counterfactual regimes and generate comparisons that more closely match the substantive theories motivating case studies.
-</p>
 
 ---
 
 # Applications
 
-### **Navigating the Divide: How Unattached Voters Respond to Politically Sponsored Protests in Polarized Contexts**  
-*(joint work with Laura Chelidonopoulos) — Working Paper*
+<div class="paper-entry" markdown="1">
 
-<p style="font-size: 0.9em; color: #666;">
-This project examines how partisan-organized demonstrations shape political behavior by combining elite interviews with a large-scale repeated-measures experiment. We begin by interviewing politicians to elicit their expectations about which voter groups are most responsive to these events and the mechanisms they believe drive heterogeneity. These elicited beliefs are then used to pre-register hypotheses, which we test using a nationally representative survey experiment that randomly assigns respondents to information about politically sponsored protests and re-interviews them after treatment. The design enables a direct comparison between elite expectations and observed behavioral responses, providing evidence on the accuracy of political actors’ beliefs and offering a framework for integrating elite knowledge into policy learning and heterogeneous treatment effect evaluation.
-</p>
+### Navigating the Divide: How Unattached Voters Respond to Politically Sponsored Protests in Polarized Contexts
 
----
+<span class="paper-coauthors">with Laura Chelidonopoulos</span>
+<span class="paper-status">Working Paper</span>
 
-### **When Coups Fail: Causal Estimates of Economic Decline after Unsuccessful Seizures of Power**  
-*Working Paper*
+We combine elite interviews with a large-scale repeated-measures experiment to study how partisan-organized demonstrations shape political behavior. Politicians' elicited beliefs about voter responsiveness are used to pre-register hypotheses, which are then tested in a nationally representative survey experiment, enabling a direct comparison between elite expectations and observed behavioral responses.
 
-<p style="font-size: 0.9em; color: #666;">
-This paper investigates the economic consequences of failed coup attempts. Using a global dataset of unsuccessful seizures of power, I estimate their impact on economic performance by comparing affected countries with matched counterfactual trajectories. The analysis shows that even unsuccessful coups generate substantive economic disruptions, including declines in investment, slower growth, and elevated political risk, highlighting how attempted regime change can reshape macroeconomic conditions even when it does not succeed.
-</p>
+</div>
 
----
+<div class="paper-entry" markdown="1">
 
-### **Can the Resource Curse be Avoided? Assessing the Impact of a Major Oil Field Discovery on Political Participation**  
-*(joint work with Laura Chelidonopoulos) — Work-in-Progress*
+### When Coups Fail: Causal Estimates of Economic Decline after Unsuccessful Seizures of Power
 
-<p style="font-size: 0.9em; color: #666;">
-This project studies the political effects of a sudden offshore oil field discovery and the associated revenue windfall for nearby coastal municipalities. We analyze how the expectation of future royalties shapes voter turnout, mobilization, and engagement with local politics. The design leverages spatial variation in exposure to the discovery and temporal variation in the announcement and institutional implementation of revenue flows, providing new evidence on how natural resource shocks influence democratic participation.
-</p>
+<span class="paper-status">Working Paper</span>
 
----
+Using a global dataset of unsuccessful coup attempts and matched counterfactual trajectories, I show that even failed coups generate substantive economic disruptions — including declines in investment, slower growth, and elevated political risk — highlighting how attempted regime change reshapes macroeconomic conditions even when it does not succeed.
+
+</div>
+
+<div class="paper-entry" markdown="1">
+
+### Can the Resource Curse Be Avoided? Assessing the Impact of a Major Oil Field Discovery on Political Participation
+
+<span class="paper-coauthors">with Laura Chelidonopoulos</span>
+<span class="paper-status">Work in Progress</span>
+
+We study how a sudden offshore oil discovery and the associated revenue windfall for nearby coastal municipalities shapes voter turnout, mobilization, and engagement with local politics.
+
+</div>

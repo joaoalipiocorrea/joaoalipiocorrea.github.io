@@ -1,14 +1,18 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-<iframe src="/files/CV.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0">
+**Education**
 
-</iframe>
+- Ph.D. in Political Science, University of Pittsburgh *(in progress)*
+- M.S. in Statistics, University of Pittsburgh *(in progress)*
 
-You can download a PDF copy of my CV [here](/files/CV.pdf).
+
+**Research Interests:** Causal inference, interference, nonparametric methods, sensitivity analysis, synthetic controls, design-based inference
+
+**Software:** R, Python, C++
+
+[Download full CV (PDF)](/files/CV.pdf){: .btn--research}
