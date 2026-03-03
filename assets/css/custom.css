@@ -334,3 +334,46 @@ a:hover {
 .paper-status {
   margin-bottom: 0.2rem !important;
 }
+
+/* --- Force wider content --- */
+.sidebar + .page__content,
+.page__content,
+.page__inner-wrap,
+.archive,
+article.page,
+.page {
+  width: 100% !important;
+  max-width: 100% !important;
+  float: none !important;
+}
+.initial-content,
+#main {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+.sidebar.sticky {
+  width: 220px !important;
+}
+
+/* --- Kill excess vertical space between papers --- */
+h3, h2 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.3rem !important;
+}
+article.page p,
+.page__content p {
+  margin-bottom: 0.5em !important;
+}
+hr {
+  margin: 0.4rem 0 !important;
+}
+.paper-entry {
+  padding: 0.5rem 0 !important;
+}
+.paper-status,
+.paper-coauthors {
+  margin-bottom: 0.2rem !important;
+}
+.paper-links {
+  margin-top: 0.3rem !important;
+}
