@@ -11,7 +11,7 @@ author_profile: true
 - M.S. in Statistics, University of Pittsburgh *(in progress)*
 
 
-**Research Interests:** Causal inference, interference, nonparametric methods, sensitivity analysis, synthetic controls, design-based inference
+**Research Interests:** Causal inference, interference, nonparametric methods, sensitivity analysis, design-based inference
 
 **Software:** R, Python, C++
 
