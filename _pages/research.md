@@ -17,7 +17,6 @@ My research develops tools for causal inference when standard identification ass
 
 I develop a doubly robust framework for detecting interference that applies across DiD, staggered adoption, and synthetic control designs. The approach decompose contamination bias into identified and partially identified components, then progressively tightens bounds on bias using a semiparametrically efficient DR estimator of the spillover mean. Inference is permutation-based and exact in finite samples.
 
-
 <div class="paper-entry" markdown="1">
 
 ### Correcting Interference in Synthetic Control
@@ -25,7 +24,6 @@ I develop a doubly robust framework for detecting interference that applies acro
 <span class="paper-status">Working Paper</span>
 
 Synthetic control is uniquely vulnerable to interference: its sparse weights mean a single contaminated donor can shift estimates proportionally to its weight. I formalize this bias channel and propose three corrections — covariate rescaling, constrained ridge, and unconstrained ridge — that use an exogenous spatial reach score to penalize exposed donors. A central contribution is elevating *data coverage* (the presence of near, mid, and far donors) to a first-order design requirement for SC under potential interference.
-
 
 <div class="paper-entry" markdown="1">
 
