@@ -43,7 +43,7 @@ This project formalizes intervention design as an optimization problem (selectin
 
 ### Navigating the Divide: How Unattached Voters Respond to Politically Sponsored Protests in Polarized Contexts
 
-<span class="paper-coauthors">with Laura Chelidonopoulos</span>
+<span class="paper-coauthors">with <a href="https://laurachelidonopoulos.github.io/">Laura Chelidonopoulos</a></span>
 <span class="paper-status">Working Paper</span>
 
 We combine elite interviews with a large-scale repeated-measures experiment to study how partisan-organized demonstrations shape political behavior. Politicians' elicited beliefs about voter responsiveness are used to pre-register hypotheses, which are then tested in a nationally representative survey experiment, enabling a direct comparison between elite expectations and observed behavioral responses.
@@ -64,7 +64,7 @@ Using a global dataset of unsuccessful coup attempts and matched counterfactual 
 
 ### Can the Resource Curse Be Avoided? Assessing the Impact of a Major Oil Field Discovery on Political Participation
 
-<span class="paper-coauthors">with Laura Chelidonopoulos</span>
+<span class="paper-coauthors">with <a href="https://laurachelidonopoulos.github.io/">Laura Chelidonopoulos</a></span>
 <span class="paper-status">Work in Progress</span>
 
 We study how a sudden offshore oil discovery and the associated revenue windfall for nearby coastal municipalities shapes voter turnout, mobilization, and engagement with local politics.
