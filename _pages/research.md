@@ -11,27 +11,27 @@ My research develops tools for causal inference when standard identification ass
 
 <div class="paper-entry" markdown="1">
 
-### Detecting Interference in Causal Inference: A Doubly Robust Framework with Finite-Sample Valid Inference
+### Detection and Partial Identification of Spillover Contamination Under Interference
 
 <span class="paper-status">Working Paper</span>
 
-I develop a doubly robust framework for detecting interference that applies across DiD, staggered adoption, and synthetic control designs. The approach decompose contamination bias into identified and partially identified components, then progressively tightens bounds on bias using a semiparametrically efficient DR estimator of the spillover mean. Inference is permutation-based and exact in finite samples.
+Standard treatment effect estimators construct counterfactuals by aggregating control outcomes with estimator-specific weights. Under interference, exposed controls carry contaminated outcomes into the counterfactual, producing bias that depends on unobserved individual spillover effects. This paper detects this contamination and derives sharp bounds on its magnitude for any linear estimator. A doubly robust procedure identifies the average spillover among exposed controls under an exposure ignorability condition formalized through network or geographic distance. This identified mean then constrains a partial identification analysis: bounding the contamination reduces to a linear program solved in closed form through a sorting characterization that pairs estimator weights with unit-specific spillover capacities in monotone order. The width of the resulting identification region is governed by weight dispersion among exposed controls. Difference-in-differences, with uniform weights, achieves point identification of the contamination; synthetic control, staggered designs, and other concentrated-weight estimators face genuine partial identification, with the width Schur-convex in the weight vector. Conditional spillover estimates tighten bounds further via a Jensen inequality on within-stratum budget flexibility. The bound mapping is piecewise linear and Lipschitz, plug-in estimators inherit doubly robust convergence rates, and inference uses Imbens-Manski confidence intervals with a spatial cluster bootstrap derived from the exposure model.
 
 <div class="paper-entry" markdown="1">
 
-### Correcting Interference in Synthetic Control
+### Synthetic Control Under Interference: Detecting and Correcting Bias
 
 <span class="paper-status">Working Paper</span>
 
-Synthetic control is uniquely vulnerable to interference: its sparse weights mean a single contaminated donor can shift estimates proportionally to its weight. I formalize this bias channel and propose three corrections — covariate rescaling, constrained ridge, and unconstrained ridge — that use an exogenous spatial reach score to penalize exposed donors. A central contribution is elevating *data coverage* (the presence of near, mid, and far donors) to a first-order design requirement for SC under potential interference.
+Synthetic control constructs counterfactuals by placing large weights on a few untreated donors, making it especially sensitive to spillovers since high-weight donors are often those closest to the treated unit. This paper decomposes the resulting bias into a contamination term proportional to the weight mass on exposed donors, then develops diagnostics and corrections targeting that term. A randomization test partitions donors into distance-based rings and yields finite-sample exact p-values for proximity-patterned interference under a sharp null. Three estimation adjustments incorporate a distance-based exposure score into the weight optimization: covariate rescaling that shifts the feasible set away from exposed donors, a simplex-constrained ridge penalty with exposure-aligned shrinkage, and an unconstrained ridge that permits negative weights and provides a tuning-monotone envelope for the contamination term. Theoretical guarantees cover support elimination, bandwise mass dominance, and bias envelope convergence. Simulations and replications of four canonical applications illustrate practical performance.
 
 <div class="paper-entry" markdown="1">
 
-### Beyond Placebos: Constructing Synthetic Interventions for Causal Inference
+### Causal Inference Under Structural Interventions 
 
 <span class="paper-status">Work in Progress</span>
 
-This project formalizes intervention design as an optimization problem (selecting donor units and weights to mimic hypothetical shocks or treatment sequences that did not occur) enabling researchers to probe counterfactual regimes beyond standard placebo-based inference.
+Most causal frameworks treat the network connecting units as fixed and intervene on units within that structure. This paper considers the complementary problem: what happens when the intervention targets the structure itself? Creating, deleting, or modifying nodes and edges changes the network through which outcomes propagate, raising distinct identification challenges that unit-level potential outcomes frameworks are not designed to handle. The paper defines causal estimands for structural interventions on networks, formalizing how adding a node, severing a connection, or rewiring a subgraph alters the joint distribution of outcomes across the remaining units. Identification results characterize when structural effects are separable from compositional effects driven by changes in the unit population. An optimal transport framework provides a natural language for tracking how quantities flow through the modified structure and for comparing outcome distributions across network configurations that differ in topology. The approach connects interference, network formation, and distributional treatment effects under a unified potential-outcomes framework indexed by graph-valued interventions.
 
 </div>
 
