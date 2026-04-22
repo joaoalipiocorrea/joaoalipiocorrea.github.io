@@ -7,7 +7,7 @@ author_profile: true
 
 I teach methods at the intersection of political science and statistics. My goal is to make the logic of causal inference and quantitative analysis transparent, building each result from explicit assumptions so students develop the habit of tracing every identification step back to what justifies it.
 
-## Instructor
+## Workshop
 
 <div class="course-entry" markdown="1">
 
@@ -16,7 +16,7 @@ I teach methods at the intersection of political science and statistics. My goal
 
 An introduction to the potential outcomes framework and modern research designs for causal questions in political science. Topics include randomization, selection bias, the g-formula, difference-in-differences, synthetic controls, and instrumental variables, each developed from first principles with an emphasis on where identification assumptions succeed and fail. 
 
-<a href="/files/LectureSlides1.pdf" class="btn--research">Lecture 1 Slides</a>
+<a href="/files/LectureSlides1.pdf" class="btn--research">Lecture Slides</a>
 
 </div>
 

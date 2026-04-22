@@ -44,10 +44,35 @@ a:hover { color: var(--accent-dark); }
 /* --- Paper entry styling --- */
 .paper-entry { padding: 0.5rem 0 !important; border-bottom: 1px solid #eee; }
 .paper-entry:last-child { border-bottom: none; }
-.paper-status { font-size: 0.8rem; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.04em; }
-.paper-coauthors { font-size: 0.88rem; color: #666; font-style: italic; }
+.paper-status { display: block; font-size: 0.8rem; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.04em; }
+.paper-coauthors { display: block; font-size: 0.88rem; color: #666; font-style: italic; }
 .btn--research { display: inline-block; padding: 0.25rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: var(--accent); border: 1.5px solid var(--accent); border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em; margin-right: 0.4rem; margin-top: 0.3rem; }
 .btn--research:hover { background: var(--accent); color: #fff; }
+
+/* --- Paper teaser --- */
+.paper-teaser { font-size: 0.92rem; color: #444; margin: 0.25rem 0 0.35rem !important; }
+
+/* --- Abstract toggle --- */
+.paper-abstract { margin-top: 0.3rem; }
+.paper-abstract summary {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.1rem 0.45rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  list-style: none;
+  user-select: none;
+}
+.paper-abstract summary::-webkit-details-marker { display: none; }
+.paper-abstract summary::marker { content: ""; }
+.paper-abstract summary:hover { background: var(--accent); color: #fff; }
+.paper-abstract[open] summary { margin-bottom: 0.5rem; }
+.paper-abstract p { font-size: 0.85rem; line-height: 1.55; color: #3a3a3a; text-align: justify; hyphens: auto; }
 
 /* --- Course entries --- */
 .course-entry { padding: 0.6rem 0 0.6rem 1rem; border-left: 3px solid var(--accent-light); margin-bottom: 0.8rem; }
