@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "João Alípio-Correa"
+title                    : "Joao Alipio-Correa"
 title_separator          : "-"
-name                     : &name "João Alípio-Correa"
+name                     : &name "Joao Alipio-Correa"
 description              : &description "personal description"
 url                      : https://joaoalipiocorrea.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -21,8 +21,8 @@ repository               : "joaoalipiocorrea/joaoalipiocorrea.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "João Alípio-Correa"
+  avatar           : "profile-2026.jpg"
+  name             : "Joao Alipio-Correa"
   pronouns         : # example: "he/him"  
   bio              : "PhD Student in Political Science | MS Student in Statistics"
   location         : "Pittsburgh"

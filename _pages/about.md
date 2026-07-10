@@ -1,11 +1,15 @@
 ---
-layout: single
-author_profile: true
+layout: clean
+title: ""
 permalink: /
 ---
 
-I am a Ph.D. student in Political Science and an M.S. student in Statistics at the University of Pittsburgh. 
+# Joao Alipio-Correa
 
-My research develops methods for **causal inference under departures from standard identification assumptions**, settings with interference between units, partially identified settings, and other violations of classical conditions. I build detection and correction tools that let researchers assess and recover credible causal estimates when these assumptions break down. More broadly, I am interested in nonparametric theory, sensitivity analysis, and design-based inference for observational studies in the social sciences.
+I am a Ph.D. student in Political Science and an M.S. student in Statistics at the University of Pittsburgh.
 
+I develop statistical methods for credible causal inference in settings where the standard identification assumptions fail, with a focus on interference between units and partial identification.
 
+Methodologically, I am interested in causal inference, nonparametric theory, and design-based inference for observational studies. Substantively, I am broadly interested in political economy, representation, and conflict.
+
+<p class="cv"><a href="/files/CV.pdf">CV</a></p>

@@ -1,0 +1,72 @@
+/* Clean personal-site theme (Palatino + green), modeled on the approved mockups. */
+/* Self-hosted TeX Gyre Pagella (open Palatino clone) so every visitor sees the same face. */
+@font-face{ font-family:'Pagella'; src:url('/assets/fonts/pagella-regular.woff2') format('woff2'); font-weight:400; font-style:normal; font-display:swap; }
+@font-face{ font-family:'Pagella'; src:url('/assets/fonts/pagella-bold.woff2') format('woff2'); font-weight:700; font-style:normal; font-display:swap; }
+@font-face{ font-family:'Pagella'; src:url('/assets/fonts/pagella-italic.woff2') format('woff2'); font-weight:400; font-style:italic; font-display:swap; }
+@font-face{ font-family:'Pagella'; src:url('/assets/fonts/pagella-bolditalic.woff2') format('woff2'); font-weight:700; font-style:italic; font-display:swap; }
+:root{ --accent:#14532D; --ink:#111; --muted:#555; --grey:#666; }
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; background:#fff; color:var(--ink); }
+body{
+  font-family: 'Pagella', Palatino,"Palatino Linotype","Book Antiqua",Georgia,serif;
+  font-size:18px; line-height:1.5; -webkit-font-smoothing:antialiased;
+}
+a{ color:var(--accent); text-decoration:none; }
+a:hover{ text-decoration:underline; }
+
+.wrap{ width:min(92vw,1000px); margin:0 auto; padding:38px 0 80px; }
+
+nav.top{ display:flex; justify-content:flex-end; gap:26px; font-size:17px;
+         padding-bottom:26px; border-bottom:1px solid #e7e7e7; margin-bottom:40px; }
+
+.cols{ display:flex; gap:56px; align-items:flex-start; }
+
+aside{ width:250px; flex:0 0 250px; text-align:center; }
+aside img{ width:220px; height:auto; display:block; margin:0 auto 20px; }
+aside .title{ font-size:17px; line-height:1.35; }
+aside .univ{ font-size:17px; margin-top:2px; }
+aside h2{ font-size:18px; font-weight:700; margin:26px 0 8px; }
+aside .email{ font-size:16px; }
+aside .social{ margin-top:12px; display:flex; gap:16px; justify-content:center; }
+aside .social a{ display:inline-flex; }
+aside .social svg{ width:19px; height:19px; fill:var(--muted); transition:fill .12s ease; }
+aside .social a:hover svg{ fill:var(--accent); }
+
+main{ flex:1 1 auto; max-width:680px; min-width:0; }
+main h1{ font-size:34px; font-weight:700; margin:0 0 18px; letter-spacing:.2px; }
+main p{ margin:0 0 16px; text-align:justify; }
+main .cv{ margin-top:10px; }
+
+/* research */
+h2.group{ font-size:14px; text-transform:uppercase; letter-spacing:.09em;
+          color:var(--accent); font-weight:700; margin:34px 0 18px;
+          padding-bottom:6px; border-bottom:1px solid #e2e2e2; }
+.paper{ margin:0 0 30px; }
+.paper h3{ font-size:18px; font-weight:700; margin:0 0 4px; line-height:1.32; }
+.paper .authors{ font-weight:400; font-style:italic; color:var(--muted); font-size:.9em; }
+.paper .teaser{ color:var(--grey); font-size:16px; line-height:1.5; margin:0 0 9px; text-align:left; }
+.toggle{ position:absolute; left:-9999px; opacity:0; }
+.actions{ display:flex; gap:8px; align-items:center; }
+.btn{ display:inline-block; cursor:pointer; font-size:13.5px; letter-spacing:.02em;
+      color:var(--accent); border:1px solid var(--accent); border-radius:5px; padding:2px 11px;
+      user-select:none; text-decoration:none; transition:background .12s ease; }
+.btn:hover{ background:#14532d12; text-decoration:none; }
+.more{ display:none; margin-top:11px; }
+.toggle:checked ~ .more{ display:block; }
+.paper .abstract{ color:#454545; font-size:16px; line-height:1.5; text-align:justify; margin:0; }
+
+/* teaching */
+main h2.sec{ font-size:23px; font-weight:700; margin:34px 0 6px; }
+main h3.course{ font-size:19px; font-weight:700; margin:20px 0 2px; }
+.course-role{ color:var(--muted); font-size:16px; }
+.slides{ margin-top:8px; text-align:left; }
+hr.divider{ border:0; border-top:1px solid #e7e7e7; margin:34px 0; }
+
+footer{ width:250px; text-align:center; margin-top:70px; font-size:13px; color:#9a9a9a; }
+
+@media (max-width:720px){
+  .cols{ flex-direction:column; gap:30px; }
+  aside{ width:100%; flex-basis:auto; }
+  nav.top{ justify-content:center; }
+  footer{ width:100%; }
+}
