@@ -51,6 +51,8 @@ h2.group{ font-size:14px; text-transform:uppercase; letter-spacing:.09em;
       color:var(--accent); border:1px solid var(--accent); border-radius:5px; padding:2px 11px;
       user-select:none; text-decoration:none; transition:background .12s ease; }
 .btn:hover{ background:#14532d12; text-decoration:none; }
+.btn.disabled{ color:#b3b3b3; border-color:#d5d5d5; cursor:default; }
+.btn.disabled:hover{ background:transparent; }
 .more{ display:none; margin-top:11px; }
 .toggle:checked ~ .more{ display:block; }
 .paper .abstract{ color:#454545; font-size:16px; line-height:1.5; text-align:justify; margin:0; }

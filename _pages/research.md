@@ -13,6 +13,9 @@ permalink: /research/
   <p class="teaser">Derives sharp, closed-form bounds on the bias that interference injects into any linear ATT estimator, using a doubly robust estimate of the average spillover and a width that grows with how concentrated the weights are.</p>
   <input type="checkbox" id="s1" class="toggle">
   <div class="actions">
+    <a class="btn" href="/files/Alipio-Correa_Sharp-Closed-Form-Bounds-for-Interference-Contamination-in-Linear-ATT-Designs.pdf">Paper</a>
+    <a class="btn" href="/files/Alipio-Correa_Sharp-Closed-Form-Bounds-for-Interference-Contamination-in-Linear-ATT-Designs_Supplement.pdf">Supplement</a>
+    <a class="btn" href="/files/Alipio-Correa_Poster_Sharp-Bounds-Interference.pdf">Poster</a>
     <label for="s1" class="btn">Summary</label>
   </div>
   <div class="more"><p class="abstract">Workhorse estimators of the treatment effect on the treated, from difference-in-differences to synthetic control, build their counterfactual from control-unit outcomes, and they break down when the treatment spills over onto those controls, which contaminates the counterfactual and biases the estimate by an unknown amount. I develop a framework that detects this spillover contamination and bounds how large it can be rather than assuming it away. A doubly robust step recovers the average spillover among exposed controls under an exposure-ignorability condition, and that restriction yields sharp, closed-form partial-identification bounds on the bias of any linear estimator, with a width governed by how concentrated its weights are. Uniform-weight difference-in-differences point-identifies the contamination once the average spillover is known, while synthetic control and other concentrated-weight designs face genuine partial identification, and I pair the bounds with Imbens-Manski inference, sensitivity analysis, and two applications to Brazilian electoral politics.</p></div>
