@@ -55,7 +55,7 @@ permalink: /research/
 </div>
 
 <div class="paper">
-  <h3>Diverging at Fifteen: How Early Educational Sorting Shapes Far-Right Voting in France <span class="authors">(with Joao P Freitas Gomes and <a href="https://laurachelidonopoulos.github.io/">Laura Chelidonopoulos</a>)</span></h3>
+  <h3>Diverging at Fifteen: How Early Educational Sorting Shapes Far-Right Voting in France <span class="authors">(with <a href="https://joaopedro-fg.github.io/">Joao P Freitas Gomes</a> and <a href="https://laurachelidonopoulos.github.io/">Laura Chelidonopoulos</a>)</span></h3>
   <p class="teaser">Argues that France's early sorting of adolescents into academic and vocational tracks is an unrecognized driver of the far-right vote, tracing tracked cohorts to how they later vote.</p>
   <input type="checkbox" id="s5" class="toggle">
   <div class="actions">
