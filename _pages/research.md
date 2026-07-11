@@ -46,7 +46,7 @@ permalink: /research/
 
 <div class="paper">
   <h3>Can the Resource Curse be Avoided? Assessing the Impact of a Major Oil Field Discovery on Political Participation <span class="authors">(with <a href="https://laurachelidonopoulos.github.io/">Laura Chelidonopoulos</a>)</span></h3>
-  <p class="teaser">Investigates whether a mature democracy can absorb a sudden offshore-oil windfall without the political damage seen in fragile states, using original geolocated data on extraction and municipal revenue.</p>
+  <p class="teaser">Investigates whether a mature democracy can absorb a sudden offshore-oil windfall without the political consequences seen in fragile states, using original geolocated data on extraction and municipal revenue.</p>
   <input type="checkbox" id="s4" class="toggle">
   <div class="actions">
     <label for="s4" class="btn">Summary</label>
